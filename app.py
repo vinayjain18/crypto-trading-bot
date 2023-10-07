@@ -10,14 +10,14 @@ from bot import get_crypto_trading
 
 # load the Environment Variables. 
 load_dotenv()
-st.set_page_config(page_title="Amazon Product App")
+st.set_page_config(page_title="Crypto Trading Bot")
 
 # Access environment variables
-api_key = os.getenv('API_KEY')
-api_secret = os.getenv('API_SECRET')
+# api_key = os.getenv('API_KEY')
+# api_secret = os.getenv('API_SECRET')
 
-api_key = os.environ.get(api_key)
-api_secret = os.environ.get(api_secret)
+api_key = st.secrets["api_key"]
+api_secret = st.secrets["api_secret"]
 
 # Sidebar contents
 with st.sidebar:
