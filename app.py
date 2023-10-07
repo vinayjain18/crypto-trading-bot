@@ -28,7 +28,7 @@ with st.sidebar:
     ''')
 
     add_vertical_space(6)
-    st.write('Made by [Rohit Wahwal](https://github.com/zerothrohit)')
+    st.write('Made by [Vinay Jain](https://github.com/vinayjain18)')
 
 st.header("Cryptocurreny Price Prediction 📈")
 st.divider()
